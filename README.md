@@ -1,21 +1,17 @@
 # Assignment 1: NumPy
 
-Executed notebook covering all 11 questions. Open `assignment1_numpy.ipynb` in Google Colab and use **Runtime > Restart and run all** before submission. All outputs are saved from a fresh local kernel; a Colab run is still required by the assignment.
+All 11 questions are included with outputs from a complete Google Colab execution.
 
-## Question 8 timing
+## Question 8
 
 ```text
-bincount: 0.015284 seconds
-Python loop: 0.427868 seconds
-Speed-up: 27.99x
+bincount: 0.002705 seconds
+Python loop: 0.216494 seconds
+Speed-up: 80.03x
 ```
 
-Timings depend on the machine. The Python loop appears only in Question 8, which explicitly asks for that comparison.
+A single-run comparison; timings vary with runtime load. The only element-wise Python loop is the comparison explicitly required by Question 8. Other computations use NumPy vectorisation.
 
-## Dependencies
+Open assignment1_numpy.ipynb in Colab and use Runtime > Restart and run all to reproduce the results.
 
-Python, NumPy, pandas, and an IPython notebook kernel.
-
-## Authorship
-
-AI-assisted draft. Review and understand the work, and follow your course disclosure requirements.
+AI-assisted work; review and understand the methods before submission.
