@@ -12,6 +12,3 @@ Speed-up: 80.03x
 
 A single-run comparison; timings vary with runtime load. The only element-wise Python loop is the comparison explicitly required by Question 8. Other computations use NumPy vectorisation.
 
-Open assignment1_numpy.ipynb in Colab and use Runtime > Restart and run all to reproduce the results.
-
-AI-assisted work; review and understand the methods before submission.
